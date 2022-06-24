@@ -44,7 +44,7 @@ jobs:
            target: "./folder3/"
            
         - name:  kill script
-          run: bash ./github-actions-script.sh
+          run: sudo sh ./github-actions-script.sh
            
            
 
