@@ -42,9 +42,8 @@ jobs:
            port: 22
            source: "."
            target: "./folder3/"
-           
         - name:  kill script
-          run: sudo sh ./github-actions-script.sh
+          run: sh ./github-actions-script.sh
            
            
 
