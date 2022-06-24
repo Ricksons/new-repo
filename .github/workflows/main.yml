@@ -26,7 +26,7 @@ jobs:
         dst_owner: Ricksons
         dst_repo_name: new-repo
         src_branch: gh-pages
-        dst_branch: master
+        dst_branch: main
         
   scp:
       needs: copy
