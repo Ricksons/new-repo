@@ -20,7 +20,7 @@ jobs:
     - name: Copy
       uses: andstor/copycat-action@v3
       with:
-        personal_token: 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
+        personal_token: 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
         src_path: /.
         dst_path: BUILD
         dst_owner: Ricksons
@@ -43,7 +43,9 @@ jobs:
            source: "."
            target: "./folder3/"
         - name:  kill script
-          run: sh ./github-actions-script.sh
+          run: |
+           chmod +x killer.sh
+           sh ./github-actions-script.sh
            
            
 
