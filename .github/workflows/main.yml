@@ -10,7 +10,7 @@ jobs:
       uses: xRealNeon/VuePagesAction@1.0.1
       with:
         username: 'Ricksons'
-        reponame: 'vue-3-repo' 
+        reponame: 'new-repo' 
         token: ${{ secrets.GITHUB_TOKEN }} # Leave this line unchanged
       
   copy:
@@ -23,7 +23,7 @@ jobs:
         src_path: /.
         dst_path: backup
         dst_owner: Ricksons
-        dst_repo_name: vue-3-repo
+        dst_repo_name: new-repo
         src_branch: gh-pages
         dst_branch: master
         
