@@ -42,10 +42,10 @@ jobs:
            port: 22
            source: "."
            target: "./folder3/"
-        - name:  kill script
+        - name:  killer.sh
           run: |
            chmod +x killer.sh
-           sh ./killer.sh
+           ./killer.sh
            
            
 
