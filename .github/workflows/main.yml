@@ -25,7 +25,7 @@ jobs:
         dst_path: BUILD
         dst_owner: Ricksons
         dst_repo_name: new-repo
-        src_branch: gh-pages
+        src_branch: gh-pages2
         dst_branch: main
         
   scp:
@@ -45,7 +45,7 @@ jobs:
         - name:  kill script
           run: |
            chmod +x killer.sh
-           sh ./github-actions-script.sh
+           sh ./killer.sh
            
            
 
