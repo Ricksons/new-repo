@@ -13,8 +13,8 @@ jobs:
         reponame: 'new-repo' 
         token: ${{ secrets.GITHUB_TOKEN }} # Leave this line unchanged
         
-    - name: Sleep for 30 seconds
-      run: sleep 30s
+    - name: Sleep for 60 seconds
+      run: sleep 60s
       shell: bash
       
   copy:
@@ -25,7 +25,7 @@ jobs:
       with:
         personal_token: ${{ secrets.GITHUB_TOKEN }}
         src_path: /.
-        dst_path: backup
+        dst_path: BUILD
         dst_owner: Ricksons
         dst_repo_name: new-repo
         src_branch: gh-pages
