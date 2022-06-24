@@ -43,4 +43,4 @@ jobs:
            password: qwe
            port: 22
            source: "."
-           target: "./folder2/"
+           target: "./folder3/"
