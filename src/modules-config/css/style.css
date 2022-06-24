@@ -1,0 +1,40 @@
+.dg-module {}
+
+.dg-module-form {
+    padding: 5px;
+}
+
+.dg-module-form .title {
+    font-size: 19px;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #dee2e6 ;
+    text-transform: capitalize;
+}
+
+.dg-module-board {
+    padding: 15px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    border-radius: 14px;
+    border: 1px solid #F2F2F0;
+    box-shadow: 0 0 2px #A7B8D9;
+    width: 100%;
+}
+
+.module-layout-form-header {
+    font-size: 21px;
+    border-bottom: 1px solid #dee2e6 !important;;
+    padding-bottom: 5px;
+    margin-bottom: 30px;
+    text-transform: capitalize;
+}
+
+.dg-module-container {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 10px;
+    border: 1px solid #F2F2F0;
+    box-shadow: 0 0 2px #A7B8D9;
+    width: 100%;
+}

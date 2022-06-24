@@ -1,0 +1,16 @@
+{
+  "languages": {
+    "en": {
+      "name": "English",
+      "dir": "ltr",
+      "align": "left",
+      "cssClass": ""
+    },
+    "ar": {
+      "name": "Arabic",
+      "dir": "rtl",
+      "align": "right",
+      "cssClass": ""
+    }
+  }
+}
