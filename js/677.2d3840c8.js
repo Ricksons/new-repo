@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkcms"]=self["webpackChunkcms"]||[]).push([[677],{3677:function(e,t,i){i.r(t);const s={namespaced:!0,state:{title:{NODE_ENV:"production",BASE_URL:"/"}.VUE_APP_PUBLIC_TITLE,version:"v1.4",client:"Jikatel",isLoading:!0,isDrawerOpen:!0},actions:{doneLoading(e,t){e.commit("DONE_LOADING")},setState({commit:e},t){e("SET_STATE",t)}},mutations:{DONE_LOADING(e){e.isLoading=!1},SET_STATE(e,t){e[t.key]=t.value}}};t["default"]=s}}]);
+//# sourceMappingURL=677.2d3840c8.js.map

@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkcms"]=self["webpackChunkcms"]||[]).push([[975],{8975:function(n,t,e){e.r(t),e.d(t,{default:function(){return f}});var r=e(9199);const c={class:"text-center mt-5"};function s(n,t){return(0,r.wg)(),(0,r.iD)("div",c," dashboard ")}var u=e(89);const a={},d=(0,u.Z)(a,[["render",s]]);var f=d}}]);
+//# sourceMappingURL=975.2891f9e0.js.map

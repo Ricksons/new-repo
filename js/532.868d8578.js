@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkcms"]=self["webpackChunkcms"]||[]).push([[532],{9820:function(e,t,r){r.r(t),r.d(t,{default:function(){return u}});var s=r(9199);function a(e,t,r,a,n,c){return(0,s.wg)(),(0,s.iD)("div")}var n={created(){this.$store.dispatch("App-User-state/clearUserData").then((()=>{window.location=this.$router.resolve({name:"portal-home"}).resolved.fullPath}))}},c=r(89);const o=(0,c.Z)(n,[["render",a]]);var u=o}}]);
+//# sourceMappingURL=532.868d8578.js.map

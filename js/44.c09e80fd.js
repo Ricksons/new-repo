@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkcms"]=self["webpackChunkcms"]||[]).push([[44],{5677:function(e,o,u){u.r(o),u.d(o,{module:function(){return a}});const a={info:{fullName:"App-Module",namespace:"App",name:"Module",caption:"Module",routeName:"module->App->Module",group:"Root"},vuexModules:["api","state"],mainRoute:"/cpanel",sideMenu:{topSeparator:!1,caption:"Module",icon:"el-icon-folder",routeName:"list->page",routeParams:{listPage:1}}};o["default"]=a}}]);
+//# sourceMappingURL=44.c09e80fd.js.map

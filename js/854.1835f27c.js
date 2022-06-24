@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkcms"]=self["webpackChunkcms"]||[]).push([[854],{6854:function(e,n,s){s.r(n),s.d(n,{module:function(){return u}});const u={info:{namespace:"App",name:"User",caption:"User"},vuexModules:["api","state"],mainRoute:"/cpanel"};n["default"]=u}}]);
+//# sourceMappingURL=854.1835f27c.js.map

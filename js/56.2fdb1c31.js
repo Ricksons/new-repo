@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkcms"]=self["webpackChunkcms"]||[]).push([[56],{2056:function(e,n,u){u.r(n),u.d(n,{module:function(){return s}});const s={info:{namespace:"App",name:"SideMenu",caption:"Sidenav"},vuexModules:["state"],noRoutes:!0};n["default"]=s}}]);
+//# sourceMappingURL=56.2fdb1c31.js.map

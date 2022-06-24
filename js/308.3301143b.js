@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkcms"]=self["webpackChunkcms"]||[]).push([[308],{7308:function(e,t,s){s.r(t),s.d(t,{authGaurd:function(){return a}});const a=(e,t,s,a,n)=>!!$store.getters["App-User-state/isAuthenticated"]||(n.redirect={name:"portal-home-login"},alert($store.state["App-User-state"]),$store.state["App-User-state"].afterLoginPath=e.path,$notify.view({type:"warning",title:$ml.get("page_access_denied"),message:"",position:"center",close:!1,timeout:1500,animateInside:!1,onClosed:()=>{}}),!1);t["default"]=a}}]);
+//# sourceMappingURL=308.3301143b.js.map
