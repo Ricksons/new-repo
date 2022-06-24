@@ -1,0 +1,44 @@
+name: Build Vue
+on: [push]
+jobs:
+  build_vue:
+    runs-on: ubuntu-latest
+    name: Build Vue
+    steps:
+    - uses: actions/checkout@v2
+    - id: Build-Vue
+      uses: xRealNeon/VuePagesAction@1.0.1
+      with:
+        username: 'Ricksons'
+        reponame: 'vue-3-repo' 
+        token: ${{ secrets.GITHUB_TOKEN }} # Leave this line unchanged
+      
+  copy:
+    needs: build_vue
+    runs-on: ubuntu-latest
+    steps:
+    - name: Copy
+      uses: andstor/copycat-action@v3
+      with:
+        personal_token: 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
+        src_path: /.
+        dst_path: BUILD
+        dst_owner: Ricksons
+        dst_repo_name: vue-3-repo
+        src_branch: gh-pages
+        dst_branch: master
+        
+  scp:
+      needs: copy
+      runs-on: ubuntu-latest
+      steps:
+        - uses: actions/checkout@master
+        - name: copy file via ssh password
+          uses: appleboy/scp-action@v0.1.3
+          with:
+           host: 164.92.85.194
+           username: test
+           password: qwe
+           port: 22
+           source: "."
+           target: "./folder3/"
