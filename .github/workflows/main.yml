@@ -12,6 +12,10 @@ jobs:
         username: 'Ricksons'
         reponame: 'new-repo' 
         token: ${{ secrets.GITHUB_TOKEN }} # Leave this line unchanged
+        
+    - name: Sleep for 30 seconds
+      run: sleep 30s
+      shell: bash
       
   copy:
     runs-on: ubuntu-latest
