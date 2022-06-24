@@ -13,8 +13,8 @@ jobs:
         reponame: 'new-repo' 
         token: ${{ secrets.GITHUB_TOKEN }} # Leave this line unchanged
         
-    - name: Sleep for 60 seconds
-      run: sleep 60s
+    - name: Sleep for 2m
+      run: sleep 2m
       
   copy:
     runs-on: ubuntu-latest
@@ -29,6 +29,9 @@ jobs:
         dst_repo_name: new-repo
         src_branch: gh-pages
         dst_branch: master
+        
+    - name: Sleep for 2m
+      run: sleep 2m
         
   scp:
       runs-on: ubuntu-latest
